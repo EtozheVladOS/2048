@@ -1,0 +1,10 @@
+.conteiner {
+  display: grid;
+  justify-content: center;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+}

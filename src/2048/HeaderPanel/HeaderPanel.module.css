@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  gap: 16px;
+}
+
+.settingsBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 32px;
+}
+
+.settingsBtn:hover {
+  transition: all 0.3s;
+  cursor: pointer;
+  color: #1890ff;
+}
+
+.startBtn:hover > span > svg {
+  animation:startBtn 0.8s linear infinite;
+  animation-direction:alternate;
+}
+
+.restartBtn:hover > span > svg {
+  animation:spin 1.5s linear infinite;
+}
+
+@keyframes spin { 
+  100% { 
+      -webkit-transform: rotate(360deg); 
+      transform:rotate(360deg); 
+  } 
+}
+
+@keyframes startBtn {
+  100% {
+    height: 2px;
+  }
+}

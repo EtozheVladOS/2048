@@ -1,0 +1,9 @@
+.radio {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.radioItem {
+  text-transform: capitalize;
+}
