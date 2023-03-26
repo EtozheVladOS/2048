@@ -8,6 +8,8 @@ import './index.css';
 import App from './Root';
 import myStore from './redux/store';
 
+console.log();
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
